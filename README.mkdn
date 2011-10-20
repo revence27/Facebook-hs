@@ -44,6 +44,8 @@ generator mort fb = do
     return stt
 ```
 
+That program, when it is initialised, fetches the API key and secret, and then takes a line of text on standard input, and posts it to Facebook as a status update.
+
 The `statusSet` action is a specialisation of the `execute` action, which has the signature:
 
 ```haskell
